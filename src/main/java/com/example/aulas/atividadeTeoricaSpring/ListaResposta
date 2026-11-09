@@ -1,0 +1,103 @@
+
+1 - O que é uma API?
+RESPOSTA: Uma API é uma forma de comunicação entre sistemas, permitindo que
+um sistemaa solicite informações ou serviços de outro.
+
+2 - O que é JSON?
+RESPOSTA: O JSON é um formato utilizado para organizar e transmitir dados entre
+sistemas, usando informações como nome, idade e espécie.
+
+3- O que é HTTP?
+RESPOSTA: O HTTP é um protocolo de comunicação utilizado para permitir
+a troca de informações entre cliente e servidor pela internet.
+
+4 - O que é Controller?
+RESPOSTA: O Controller é a parte da aplicação responsável por receber as requisições,
+processar as solicitações e devolver uma resposta.
+
+5 - O que é um verbo HTTP?
+RESPOSTA: O verbo HTTP é uma ação que indica o que queremos fazer com um recurso,
+como consultar cadastrar, atualizar ou excluir informações.
+
+6 - O que é um Recurso?
+RESPOSTA: Um Recurso é uma informação ou elemento que a API disponibiliza
+para ser acessado ou manipulado, como um funcionário, um cliente ou um pet.
+
+7 - O que é um PATH (id)?
+RESPOSTA: O PATH (id) é uma informação que fa parte do caminho da URL e
+serve para identificar um recurso especícar, como o ID de um funcionáio.
+
+        EXEMPLO: /funcionario/10.
+
+8 - O que é um Query Parameter?
+RESPOSTA: Um Query Parameter é um parâmetro enviado na URL depois do ponto de interrogação (?),
+utilizado para passar informações para a API.
+        EXEMPLO: /pets/banho?pet=Mel.
+
+9 - O que é Rest?
+RESPOSTA: O REST é um estilo de arquitetura utilizado para descrever APIs, organizando a
+comunicação entre sistemas por meio de recursos e métodos HTTP.
+
+10 - O que é um endpoint?
+RESPOSTA: Um endpoint é um endereço específico de uma API que permite acessar determinada funcionalidade ou recurso.
+
+    EXEMPLO: /pets/horario
+
+11 - Quais são as partes de uma URL? (ex: http://localhost:8080/funcionarios)
+RESPOSTA: As parte de uma URL são:
+    Exemplo:
+        http://localhost:8080/funcionarios
+            onde:
+            .http: protocolo de comunicação.
+            .localhost: endereço do servidor local.
+            .8080: porta utilizada pela aplicação.
+            ./funcionarios: caminho pela aplicação que identifica o recurso acessar.
+
+
+12 - O que é um status code? O que significam o 200 e o 404?
+RESPOSTA: O status code é um código que informa o resusltado de uma requisição HTTP.
+    .200: significa que a requisição foi realizada com sucesso.
+    .404: significa que o recurso solicitado não foi encontrado.
+
+
+13 - O que é o corpo (body) de uma requisição?
+RESPOSTA: O corpo (body) de uma requisição é a parte da requisição que contém os dados
+enviados para o servidor, com as informações de um novo cadastro.
+
+14. RESPOSTA: O MVC é um padrão de organização do código que separa as respponsabilidades da aplicação.
+    .M -Model: representa os dados e as informações.
+    .V -View: representa a parte visual que o usuário utiliza.
+    .C -Controller: recebe as requisições e controla o fluxo da aplicação.
+
+15. O Spring Boot é uma ferramenta do Java que facilita a criação de aplicações e APIs,
+simplificando as configurações e permitindo executar o projeto com mais facilidade.
+
+16. RESPOSTA: O @RestController indica que a classe é responsável por receber requisições
+e retornar respostas, como textos e objetos em formato JSON.
+
+18. RESPOSTA: O @GetMapping é utilizado para criar uma rota que recebe requisições GET,
+geralmente para consultar ou busca informações.
+
+19. RESPOSTA: Os verbos HTTP são:
+    .GET: consulta informações.
+    .POST: cadastrar ou criar informações.
+    .PUT: atualizar um recurso.
+    PUTCH: atualizar parcialmente um recurso.
+    .DELETE: excluir um recurso.
+
+
+20. O PathVariable é utilizado para receber um valor que está no caminho da URL.
+        Exemplo: /pets/adotar/Luna, onde Luna é recebida pela variável.
+
+21. O @RequestParam é utilizado para receber parâmtros enviados na URL depois do ponto de interrogação (?).
+    EXEMPLO: /pets/banho?pet=Mel.
+
+22. O status 201 e 204 significa:
+    .201: significa qu um recurso foi criado com sucesso.
+    .204: significa que a requisição foi realizar com sucesso, mas não existe conteúdo para retornar na resposta.
+
+23. Um Repository é aparte da aplicação responsável por acessar e manipular os dados armazenados no banco de dados,
+como buscar, salvar, atualizar e excluir informações.
+
+
+
